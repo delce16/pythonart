@@ -1,3 +1,4 @@
+
 import turtle 
 t=turtle.Turtle()
 t.color("black")
@@ -105,21 +106,21 @@ for r in range(11):
     t.pd()
 t.end_fill()
 t.begin_fill()
-t.color("black")
+t.color("black","black")
+t.fd(30)
 t.lt(90)
 t.fd(30)
-for x in range(4):
-        t.rt(90)
-        t.fd(30)
+t.lt(90)
+t.fd(30)
+t.lt(90)
+t.fd(30)
 t.end_fill()
-t.color('black')
-t.rt(90)
-t.fd(30)
-t.begin_fill()
-t.lt(90)
-t.fd(30)
-t.lt(90)
-t.fd(30)
-t.lt(90)
-t.fd(30)
+
+
+
+
+
+
+
+
 turtle.done()
